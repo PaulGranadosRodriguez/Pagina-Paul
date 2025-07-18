@@ -50,28 +50,15 @@ Boton1{
   transform: rotateY(180deg);
 }
 
-/*body {
-  background-color: #000;
+body {
+  background-color: #d7e0f9;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
-}*/
-
-.neon {
-  font-size: 60px;
-  color: #0ff;
-  text-shadow:
-    0 0 5px #0ff,
-    0 0 10px #0ff,
-    0 0 20px #0ff,
-    0 0 40px #0ff,
-    0 0 80px #0ff,
-    0 0 160px #0ff;
-  animation: flicker 1.5s infinite;
-  font-family: 'Segoe UI', sans-serif;
 }
+
 
 @keyframes flicker {
   0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
@@ -131,15 +118,21 @@ body {
   font-family: sans-serif;
 }
 .contenedor {
+ 
   display: flex;
-  height: 100vh;
+  height: 300px;
 }
 .seccion {
-  flex: 1;
   padding: 20px;
-  text-align: center;
-  border-right: 1px solid #ccc;
+  text-align: left;
+  width: 500px;
+  height: 100px;
 }
-.seccion:last-child {
-  border-right: none;
+
+
+/*.seccion:last-child {
+  border-right:none;
+}*/
+#miTexto {
+  text-align: left;
 }
